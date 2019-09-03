@@ -1,5 +1,11 @@
 # frida-ipa-dump
 
+Currently dumping plugins will cause the app to be terminated by jetsam: https://github.com/ChiChou/frida-ipa-dump/issues/13
+
+I am working on a completly node.js rewritten version.
+
+---
+
 Yet another frida based iOS dumpdecrypted
 
 Tested on macOS, supports both Python2 and Python3.
